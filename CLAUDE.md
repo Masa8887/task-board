@@ -6,15 +6,21 @@
 
 - プロジェクト名: task-board
 - 概要: タスク管理ボードアプリケーション
-- 技術スタック: (未定 — 決まり次第追記)
+- 技術スタック: React 19 + Vite (JavaScript)
 
 ## ディレクトリ構成
 
-(コードが追加され次第追記)
+- `index.html` — エントリ HTML
+- `src/main.jsx` — React のマウント
+- `src/App.jsx` — タスクボード本体(追加・完了切り替え・削除)
+- `src/index.css` — スタイル
 
 ## 開発コマンド
 
-(ビルド・テスト・起動コマンドが決まり次第追記)
+- `npm install` — 依存関係のインストール
+- `npm run dev` — 開発サーバー起動
+- `npm run build` — 本番ビルド(`dist/` に出力)
+- `npm run preview` — ビルド結果のプレビュー
 
 ## Git 運用ルール
 
